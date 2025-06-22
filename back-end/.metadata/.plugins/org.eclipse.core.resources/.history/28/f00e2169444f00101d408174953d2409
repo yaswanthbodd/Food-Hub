@@ -1,0 +1,17 @@
+package com.foodhub.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Entity
+@Table( name = "fooditem")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Item {
+
+}
