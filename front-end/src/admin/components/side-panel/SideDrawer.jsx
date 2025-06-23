@@ -42,7 +42,7 @@ export const SideDrawer = ()=>{
         <SidePanel>
             <MotionDrawer initial={{opacity : 0}} animate={{opacity : 1}} transition={{delay : 1, ease : 'easeIn'}} variant="permanent" anchor="left" open={true}>
                 <Box p={2} width={'200px'} textAlign={'center'} role='presentation'>
-                    <Typography marginTop={4} fontWeight={700}>Side Panel</Typography>
+                    <Typography marginTop={4} fontWeight={700}>Admin Panel</Typography>
                     <Divider sx={{ marginTop : 1}} color="success" />
                     {
                         sidePanelLists.map((list,index)=>(
