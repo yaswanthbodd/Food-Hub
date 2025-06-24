@@ -8,6 +8,7 @@ import SingleCard from '../dishes/SingleCard';
 import AccordionQuestions from '../accordion/AccordionQuestions';
 import DownloadApp from '../downloader/DownloadApp';
 import FooterComponent from '../footer/FooterComponent';
+import MeetDeveloper from '../testimonials/MeetDeveloper';
 
 const itemList = [
     {
@@ -145,6 +146,7 @@ export default function UserHero() {
             }
 
             <AccordionQuestions />
+            <MeetDeveloper />
             <DownloadApp />
             <FooterComponent />
         </Box>

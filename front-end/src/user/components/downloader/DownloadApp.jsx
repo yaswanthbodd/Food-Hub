@@ -3,7 +3,7 @@ import React from 'react'
 
 const DownloadApp = () => {
     return (
-        <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
+        <Box marginTop={4} display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
             <Typography variant='h3'>For Better Experience Download FoodHub App</Typography>
 
             {/* Svg Images downloads */}

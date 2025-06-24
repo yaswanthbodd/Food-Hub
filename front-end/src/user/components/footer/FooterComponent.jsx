@@ -5,22 +5,26 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import XIcon from '@mui/icons-material/X'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
-const iconButtons = [
+export const iconButtons = [
     {
         iconbutton: FacebookIcon,
         iconColor: 'info',
+        to: '',
     },
     {
         iconbutton: LinkedInIcon,
         iconColor: 'info',
+        to: 'https://www.linkedin.com/in/yaswanth-boddu/'
     },
     {
         iconbutton: XIcon,
-        iconColor: 'inherit', // Optional or change to 'action'
+        iconColor: 'inherit',
+        to: 'https://x.com/yaswanth_19_1_9'
     },
     {
         iconbutton: InstagramIcon,
         iconColor: 'error',
+        to: 'https://www.instagram.com/yaswanth_19_1_9/'
     },
     ]
 
@@ -39,8 +43,8 @@ const iconButtons = [
             {/* Social Media Icons */}
             <Stack direction="row" gap={2}>
             {iconButtons.map((button, index) => (
-                <IconButton key={index} sx={{ border: '1px solid yellow' }}>
-                <button.iconbutton color={button.iconColor} />
+                <IconButton href={button.to} target='_blank' key={index} sx={{ border: '1px solid yellow' }}>
+                    <button.iconbutton color={button.iconColor} />
                 </IconButton>
             ))}
             </Stack>
