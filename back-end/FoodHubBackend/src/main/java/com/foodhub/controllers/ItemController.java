@@ -65,4 +65,14 @@ public class ItemController {
 		}
 		return new ResponseEntity<>("Item Not Found", HttpStatus.NOT_FOUND);
 	}
+	
+	//Get the list of items based on the Category
+	@GetMapping("/items/category/{category}")
+	public ResponseEntity<List<Item>> getItemsByCategory(@PathVariable String category){
+		List<Item> items = service.getItemByCategory(category);
+		if(items.isEmpty()) {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}
+		return new ResponseEntity<>(items, HttpStatus.OK);
+	}
 }

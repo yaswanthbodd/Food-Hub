@@ -35,6 +35,11 @@ public class ItemService {
 		return item;
 	}
 	
+	//Get the item based on their category
+	public List<Item> getItemByCategory(String category) {
+		return repo.findByProductCategory(category);
+	}
+	
 	//Delete the item
 	public void deleteItem(int id) {
 		repo.deleteById(id);
