@@ -5,6 +5,7 @@ import SensorOccupiedIcon from '@mui/icons-material/SensorOccupied';
 import SearchIcon from '@mui/icons-material/Search';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
+import { Link } from 'react-router-dom';
 
 const MotionBox = motion(Box)
 const MotionTypography = motion(Typography)
@@ -56,7 +57,7 @@ const UserNavbar = ({mode, setMode}) => {
                 </IconButton>
                 <MotionTypography initial={{opacity : 0}} animate={{opacity : 1}} transition={{ delay : 1, duration : 0.7, ease : 'linear'}} component='div' sx={{ flexGrow: 1 }} color="error" fontWeight={700}>Food-Hub</MotionTypography>
                 
-                <Button sx={{fontWeight : 'bold', mr : 2}} color='error' startIcon={<SensorOccupiedIcon/>}>SIGN IN</Button>
+                <Button component={Link} to='/register' sx={{fontWeight : 'bold', mr : 2}} color='error' startIcon={<SensorOccupiedIcon/>}>SIGN IN</Button>
                 <Button sx={{mr : 2}} size='large' startIcon={<RemoveShoppingCartIcon fontSize='large'/>}></Button>
                 <TextField placeholder='Search' sx={{ width : '180px', mr : 2}} InputProps={{ startAdornment : <InputAdornment><SearchIcon /></InputAdornment> }} size='small' />
                 <IconButton size="small" onClick={toggleMode}>

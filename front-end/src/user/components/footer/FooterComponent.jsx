@@ -9,7 +9,7 @@ export const iconButtons = [
     {
         iconbutton: FacebookIcon,
         iconColor: 'info',
-        to: '',
+        to: null,
     },
     {
         iconbutton: LinkedInIcon,
@@ -31,7 +31,7 @@ export const iconButtons = [
     const FooterComponent = () => {
     return (
         <Box sx={{ py: 4 }}>
-        <LinearProgress variant="determinate" value={100} sx={{ height: '0.5px', mb: 4 }} />
+        <LinearProgress sx={{ height: '0.5px', mb: 4 }} />
 
         <Stack
             direction="row"
@@ -67,7 +67,7 @@ export const iconButtons = [
         </Stack>
 
         {/* Optional Footer Bottom */}
-        <LinearProgress color='success' variant='determinate' sx={{height : '0.5px', mt : 2}}/>
+        <LinearProgress color='success' sx={{height : '0.5px', mt : 2}}/>
         <Typography
             textAlign="center"
             mt={4}
