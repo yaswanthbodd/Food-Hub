@@ -1,11 +1,17 @@
-import { AppBar, Box, Toolbar,IconButton,Typography, Button, TextField, InputAdornment } from '@mui/material'
-import React from 'react'
+import { AppBar, Box, Toolbar,IconButton,Typography, Button, TextField, InputAdornment, Snackbar, Avatar } from '@mui/material'
+import React, { useState } from 'react'
 import {motion} from 'framer-motion'
 import SensorOccupiedIcon from '@mui/icons-material/SensorOccupied';
 import SearchIcon from '@mui/icons-material/Search';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
-import { Link } from 'react-router-dom';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link, useNavigate } from 'react-router-dom';
+import {isLoggedIn , getUserInfo, logout} from '../authentication/loggedin/Auth';
+import MuiAlert from '@mui/material/Alert';
+import PersonIcon from '@mui/icons-material/Person';
+import Person2Icon from '@mui/icons-material/Person2';
+import { blue, pink } from '@mui/material/colors';
 
 const MotionBox = motion(Box)
 const MotionTypography = motion(Typography)
@@ -38,7 +44,23 @@ const pathVariants = {
     }
 }
 
+// const logouted = logout();
+
 const UserNavbar = ({mode, setMode}) => {
+
+    const loggedIn = isLoggedIn();
+    const user = getUserInfo();
+    const gender = localStorage.getItem("gender");
+    
+    const [snackbarOpen, setSnackbarOpen] = useState(false);
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        logout();
+        setSnackbarOpen(true);
+        navigate("/");
+    }
+
     // DarkMode
     const toggleMode = () => {
             setMode(prev => (prev === 'light' ? 'dark' : 'light'));
@@ -57,14 +79,32 @@ const UserNavbar = ({mode, setMode}) => {
                 </IconButton>
                 <MotionTypography initial={{opacity : 0}} animate={{opacity : 1}} transition={{ delay : 1, duration : 0.7, ease : 'linear'}} component='div' sx={{ flexGrow: 1 }} color="error" fontWeight={700}>Food-Hub</MotionTypography>
                 
-                <Button component={Link} to='/register' sx={{fontWeight : 'bold', mr : 2}} color='error' startIcon={<SensorOccupiedIcon/>}>SIGN IN</Button>
-                <Button sx={{mr : 2}} size='large' startIcon={<RemoveShoppingCartIcon fontSize='large'/>}></Button>
-                <TextField placeholder='Search' sx={{ width : '180px', mr : 2}} InputProps={{ startAdornment : <InputAdornment><SearchIcon /></InputAdornment> }} size='small' />
+                {
+                    !loggedIn ? (<Button component={Link} to='/register' sx={{fontWeight : 'bold', mr : 2}} color='error' startIcon={<SensorOccupiedIcon/>}>SIGN IN</Button>) : (<Button onClick={handleLogout} sx={{fontWeight : 'bold', mr : 2}} color='error' startIcon={<SensorOccupiedIcon/>}>Log Out</Button>)
+                }
+                
+
+                {
+                    loggedIn ? ( <Button sx={{mr : 2}} size='large' startIcon={<ShoppingCartIcon fontSize='large'/>}></Button> ) : 
+                    (<Button sx={{mr : 2}} size='large' startIcon={<RemoveShoppingCartIcon fontSize='large'/>}></Button>)
+                }
+
+                {
+                    loggedIn ? ( gender === 'Male' ? (<Avatar sx={{ bgcolor : blue[500]}}> <PersonIcon /> </Avatar>) : (<Avatar sx={{ bgcolor : pink[500]}}> <Person2Icon /> </Avatar>) ) : ''
+                }
+
+                <TextField placeholder='Search' sx={{ width : '180px', mr : 2, ml : 2}} InputProps={{ startAdornment : <InputAdornment><SearchIcon /></InputAdornment> }} size='small' />
                 <IconButton size="small" onClick={toggleMode}>
                     <Brightness4Icon color="inherit" fontSize="large"/>
                 </IconButton>
             </Toolbar>
         </AppBar>
+
+        <Snackbar open={snackbarOpen} autoHideDuration={2000} onClose={()=>setSnackbarOpen(false)} anchorOrigin={{vertical : "top", horizontal : "right"}}>
+            <MuiAlert onClose={()=> setSnackbarOpen(false)} variant='filled' severity='success' sx={{width: '100%'}}>
+                Logout Succesfully...!
+            </MuiAlert>
+        </Snackbar>
     </MotionBox>
   )
 }

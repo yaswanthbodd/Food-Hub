@@ -19,6 +19,7 @@ export const login = async(email, password) => {
         const response = await axios.post(API_URL + "login", {email, password})
         localStorage.setItem("token",response.data.token);
         localStorage.setItem("role",response.data.role);
+        localStorage.setItem("gender", response.data.gender);
         console.log("Login Successfull");
         const roleValue = response.data.role
         return { success: true, roleValue};

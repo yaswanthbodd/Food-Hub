@@ -4,14 +4,19 @@ import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import AddIcon from '@mui/icons-material/Add';
 import axios from 'axios';
 import CardSkeletion from '../skeletions/CardSkeletion';
+import { isLoggedIn } from '../authentication/loggedin/Auth';
 
 const CardItem = () => {
     
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState(true);
 
+    //Authentication
+    const isLogged = isLoggedIn();
+
     // Fetching All items
     useEffect(()=>{
+        
         axios.get('http://localhost:8080/api/items')
         .then((response)=>{ 
             setItems(response.data);
@@ -22,6 +27,15 @@ const CardItem = () => {
             setLoading(false);
     })
     },[])
+
+    const handleAddToCart = ()=>{
+
+        if(!isLogged){
+            alert("Please login to add to your cart");
+        }else{
+
+        } 
+    }
 
     return (
         <Box marginTop={5} marginBottom={5}>
@@ -41,7 +55,7 @@ const CardItem = () => {
                                 <Typography fontSize='10px' variant='body2' gutterBottom>{item.productType}</Typography>
                                 <Stack direction={'row'}>
                                 <Typography marginTop={1} sx={{flexGrow : 1}} color='success'><CurrencyRupeeIcon fontSize='small' />{item.productPrice}</Typography>
-                                <Button><AddIcon /></Button>
+                                <Button onClick={handleAddToCart}><AddIcon /></Button>
                                 </Stack>
                             </CardContent>
                         </Card>

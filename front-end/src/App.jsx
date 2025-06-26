@@ -8,8 +8,14 @@ import UserLandingPage from './user/UserLandingPage'
 import CardSkeletion from './user/components/skeletions/CardSkeletion'
 import Register from './user/components/authentication/register/Register'
 import Login from './user/components/authentication/login/Login'
+import autoLogout from './user/components/authentication/loggedin/AutoLogout' 
+
+
+
 
 function App() {
+
+  autoLogout
 
   return (
     <Box>
