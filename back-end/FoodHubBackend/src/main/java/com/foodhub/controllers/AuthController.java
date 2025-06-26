@@ -66,6 +66,6 @@ public class AuthController {
 		UserDetails userDetails = new org.springframework.security.core.userdetails.User(user.getEmail(), 
 				user.getPassword(), Collections.singleton(new SimpleGrantedAuthority("ROLE_"+ user.getRole())));
 		String token = jwtUtil.generateToken(userDetails);
-		return ResponseEntity.ok(Map.of("token", token, "role", user.getRole()));
+		return ResponseEntity.ok(Map.of("token", token, "role", user.getRole(), "gender", user.getGender()));
 	}
 }
