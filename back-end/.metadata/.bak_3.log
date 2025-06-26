@@ -1,4 +1,4 @@
-!SESSION 2025-06-25 09:42:06.964 -----------------------------------------------
+!SESSION 2025-06-26 12:08:12.413 -----------------------------------------------
 eclipse.buildId=4.35.0.202504180233
 java.version=21.0.6
 java.vendor=Eclipse Adoptium
@@ -7,58 +7,10 @@ Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
 This is a continuation of log file C:\Users\AdmiN\Desktop\food-hub\back-end\.metadata\.bak_2.log
-Created Time: 2025-06-25 15:01:55.735
+Created Time: 2025-06-26 14:12:42.367
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:55.735
-!MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-!STACK 0
-java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
-	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:54)
-	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:89)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:193)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:199)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:144)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:133)
-	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:944)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	... 37 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:01:56.205
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:42.367
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -95,7 +47,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:56.206
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.370
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -143,7 +95,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:56.207
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.370
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -191,7 +143,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:56.208
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.371
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -239,45 +191,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:01:57.410
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
-!STACK 0
-java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
-	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
-	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:944)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:169)
-	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:50)
-	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
-	... 8 more
-
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:57.412
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.874
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -325,7 +239,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:57.412
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.876
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -373,7 +287,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:57.413
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.876
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -421,8 +335,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:01:58.367
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:42.895
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -459,7 +373,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:58.369
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.896
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -507,7 +421,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:58.369
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.898
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -555,7 +469,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:01:58.370
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:42.900
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -603,8 +517,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:00.257
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:43.380
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -641,7 +555,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:00.258
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:43.382
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -689,7 +603,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:00.259
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:43.383
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -737,7 +651,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:00.260
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:43.385
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -785,8 +699,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:01.773
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:43.948
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -823,7 +737,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:01.775
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:43.950
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -871,7 +785,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:01.777
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:43.952
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -919,7 +833,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:01.777
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:43.953
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -967,8 +881,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:02.445
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:46.495
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1005,7 +919,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:02.447
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:46.497
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1053,7 +967,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:02.449
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:46.499
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1101,7 +1015,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:02.449
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:46.500
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1149,8 +1063,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:03.241
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:47.447
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1187,7 +1101,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:03.243
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:47.450
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1235,7 +1149,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:03.244
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:47.450
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1283,7 +1197,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:03.244
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:47.451
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1331,8 +1245,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:05.706
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:51.627
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1369,7 +1283,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:05.707
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:51.628
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1417,7 +1331,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:05.708
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:51.629
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1465,7 +1379,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:05.709
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:51.629
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1513,8 +1427,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:06.669
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:52.142
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1551,7 +1465,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:06.671
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:52.144
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1599,7 +1513,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:06.672
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:52.145
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1647,7 +1561,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:06.673
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:52.145
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1695,8 +1609,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:07.233
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:52.650
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1733,7 +1647,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:07.235
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:52.652
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1781,7 +1695,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:07.236
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:52.654
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1829,7 +1743,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:07.236
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:52.654
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1877,8 +1791,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:08.226
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:53.959
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1915,7 +1829,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:08.227
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:53.960
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1963,7 +1877,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:08.228
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:53.961
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2011,7 +1925,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:08.229
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:53.962
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2059,8 +1973,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:09.514
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:54.462
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2097,7 +2011,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:09.517
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:54.463
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2145,7 +2059,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:09.518
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:54.465
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2193,7 +2107,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:09.518
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:54.465
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2241,8 +2155,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:13.210
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:54.974
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2279,7 +2193,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:13.212
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:54.975
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2327,7 +2241,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:13.213
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:54.976
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2375,7 +2289,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:13.214
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:54.976
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2423,8 +2337,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:16.273
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:56.503
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2461,7 +2375,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:16.275
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:56.504
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2509,7 +2423,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:16.276
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:56.505
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2557,7 +2471,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:16.276
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:56.506
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2605,8 +2519,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:16.793
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:12:58.125
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2643,7 +2557,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:16.795
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:58.126
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2691,7 +2605,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:16.795
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:58.127
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2739,7 +2653,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:16.796
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:12:58.127
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2787,8 +2701,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:17.255
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:04.116
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2825,7 +2739,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:17.257
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:04.117
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2873,7 +2787,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:17.258
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:04.118
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2921,7 +2835,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:17.258
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:04.118
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2969,8 +2883,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:17.834
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:04.699
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3007,7 +2921,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:17.836
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:04.701
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3055,7 +2969,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:17.836
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:04.701
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3103,7 +3017,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:17.837
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:04.703
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3151,8 +3065,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:18.779
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:08.041
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3189,7 +3103,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:18.780
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:08.043
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3237,7 +3151,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:18.781
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:08.044
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3285,7 +3199,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:18.783
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:08.045
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3333,8 +3247,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:19.319
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:10.475
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3371,7 +3285,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:19.321
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:10.476
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3419,7 +3333,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:19.322
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:10.477
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3467,7 +3381,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:19.322
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:10.478
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3515,8 +3429,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:22.549
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:11.943
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3553,7 +3467,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:22.552
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:11.944
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3601,7 +3515,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:22.553
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:11.945
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3649,7 +3563,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:22.554
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:11.945
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3697,8 +3611,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:23.101
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:13.210
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3735,7 +3649,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:23.103
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:13.211
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3783,7 +3697,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:23.104
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:13.212
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3831,7 +3745,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:23.106
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:13.212
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3879,8 +3793,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:23.624
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:13.726
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3917,7 +3831,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:23.626
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:13.727
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3965,7 +3879,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:23.627
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:13.727
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4013,7 +3927,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:23.628
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:13.728
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4061,8 +3975,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:26.748
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:14.236
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4099,7 +4013,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:26.750
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:14.237
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4147,7 +4061,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:26.752
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:14.238
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4195,7 +4109,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:26.753
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:14.239
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4243,8 +4157,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:27.384
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:14.771
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4281,7 +4195,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:27.385
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:14.772
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4329,7 +4243,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:27.386
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:14.773
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4377,7 +4291,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:27.387
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:14.774
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4425,8 +4339,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:27.901
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:15.417
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4463,7 +4377,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:27.902
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:15.418
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4511,7 +4425,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:27.903
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:15.420
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4559,7 +4473,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:27.904
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:15.421
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4607,8 +4521,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:28.392
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:15.913
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4645,7 +4559,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:28.394
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:15.915
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4693,7 +4607,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:28.394
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:15.916
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4741,7 +4655,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:28.395
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:15.917
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4789,8 +4703,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:28.930
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:16.426
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4827,7 +4741,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:28.931
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:16.427
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4875,7 +4789,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:28.933
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:16.428
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4923,7 +4837,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:28.934
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:16.428
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4971,8 +4885,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:30.798
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:16.930
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5009,7 +4923,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:30.799
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:16.931
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5057,7 +4971,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:30.802
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:16.933
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5105,7 +5019,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:30.803
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:16.934
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5153,8 +5067,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:31.309
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:19.837
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5191,7 +5105,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:31.311
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:19.839
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5239,7 +5153,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:31.312
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:19.840
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5287,7 +5201,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:31.313
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:19.840
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5335,8 +5249,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:32.313
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:20.353
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5373,7 +5287,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:32.314
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:20.354
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5421,7 +5335,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:32.315
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:20.355
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5469,7 +5383,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:32.315
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:20.355
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5517,8 +5431,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:33.328
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:20.858
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5555,7 +5469,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:33.331
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:20.859
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5603,7 +5517,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:33.332
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:20.860
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5651,7 +5565,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:33.332
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:20.861
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5699,8 +5613,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:33.846
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:21.368
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5737,7 +5651,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:33.849
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:21.369
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5785,7 +5699,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:33.851
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:21.370
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5833,7 +5747,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:33.852
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:21.371
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5881,8 +5795,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:35.582
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:21.878
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5919,7 +5833,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:35.584
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:21.880
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5967,7 +5881,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:35.585
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:21.881
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6015,7 +5929,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:35.586
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:21.882
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6063,8 +5977,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:36.096
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:22.388
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6101,7 +6015,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:36.098
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:22.390
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6149,7 +6063,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:36.099
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:22.390
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6197,7 +6111,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:36.100
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:22.391
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6245,7 +6159,45 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.164
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:22.900
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:944)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:169)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:50)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
+	... 8 more
+
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:22.901
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6293,7 +6245,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.167
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:22.902
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6341,7 +6293,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.170
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:22.903
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6389,8 +6341,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:39.184
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:23.410
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6427,7 +6379,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.187
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:23.412
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6475,7 +6427,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.188
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:23.413
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6523,7 +6475,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.189
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:23.414
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6571,8 +6523,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:39.653
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:23.917
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6609,7 +6561,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.655
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:23.918
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6657,7 +6609,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.655
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:23.919
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6705,7 +6657,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:39.656
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:23.920
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6753,8 +6705,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:40.193
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:25.586
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6791,7 +6743,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:40.194
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:25.588
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6839,7 +6791,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:40.195
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:25.589
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6887,7 +6839,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:40.196
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:25.589
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6935,8 +6887,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:41.202
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:26.096
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6973,7 +6925,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:41.203
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:26.097
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7021,7 +6973,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:41.205
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:26.098
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7069,7 +7021,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:41.205
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:26.100
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7117,8 +7069,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:41.747
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:26.597
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7155,7 +7107,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:41.748
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:26.599
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7203,7 +7155,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:41.749
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:26.600
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7251,7 +7203,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:41.750
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:26.602
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7299,8 +7251,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:02:43.243
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:27.160
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7337,7 +7289,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:43.245
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:27.161
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7385,7 +7337,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:43.246
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:27.162
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7433,7 +7385,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:02:43.247
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:27.163
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7481,8 +7433,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:04:35.584
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:27.688
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7519,7 +7471,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:35.589
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:27.689
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7567,7 +7519,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:35.590
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:27.690
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7615,7 +7567,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:35.590
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:27.691
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7663,8 +7615,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:04:36.106
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:28.201
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7701,7 +7653,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:36.108
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:28.202
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7749,7 +7701,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:36.110
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:28.203
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7797,7 +7749,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:36.111
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:28.204
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7845,8 +7797,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:04:37.164
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:28.713
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7883,7 +7835,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:37.167
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:28.715
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7931,7 +7883,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:37.168
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:28.716
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7979,7 +7931,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:04:37.170
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:28.716
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8027,8 +7979,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:46.030
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:29.224
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8065,7 +8017,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:46.033
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:29.225
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8113,7 +8065,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:46.034
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:29.226
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8161,7 +8113,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:46.034
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:29.227
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8209,8 +8161,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:46.550
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:35.170
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8247,7 +8199,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:46.552
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:35.171
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8295,7 +8247,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:46.553
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:35.171
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8343,7 +8295,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:46.554
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:35.171
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8391,8 +8343,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:47.062
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:35.665
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8429,7 +8381,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:47.065
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:35.680
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8477,7 +8429,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:47.066
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:35.680
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8525,7 +8477,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:47.068
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:35.680
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8573,8 +8525,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:48.047
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:36.191
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8611,7 +8563,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:48.049
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:36.191
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8659,7 +8611,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:48.051
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:36.191
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8707,7 +8659,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:48.052
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:36.203
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8755,8 +8707,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:48.795
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:36.685
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8793,7 +8745,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:48.797
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:36.685
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8841,7 +8793,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:48.798
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:36.685
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8889,7 +8841,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:48.799
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:36.685
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8937,8 +8889,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:49.299
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:37.180
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8975,7 +8927,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:49.302
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:37.180
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9023,7 +8975,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:49.303
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:37.180
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9071,7 +9023,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:49.306
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:37.180
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9119,8 +9071,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:52.014
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:37.804
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9157,7 +9109,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:52.016
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:37.804
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9205,7 +9157,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:52.017
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:37.804
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9253,7 +9205,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:52.018
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:37.807
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9301,8 +9253,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:52.831
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:38.316
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9339,7 +9291,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:52.835
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:38.316
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9387,7 +9339,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:52.836
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:38.316
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9435,7 +9387,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:52.837
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:38.316
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9483,8 +9435,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:53.548
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:39.508
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9521,7 +9473,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:53.551
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:39.508
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9569,7 +9521,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:53.553
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:39.508
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9617,7 +9569,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:53.554
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:39.508
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9665,8 +9617,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:55.839
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:41.000
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9703,7 +9655,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:55.843
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.001
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9751,7 +9703,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:55.845
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.002
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9799,7 +9751,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:55.847
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.002
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9847,8 +9799,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:57.193
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:41.502
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9885,7 +9837,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:57.195
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.504
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9933,7 +9885,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:57.197
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.505
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9981,7 +9933,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:57.198
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.506
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10029,45 +9981,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:57.904
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
-!STACK 0
-java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
-	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
-	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:944)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:169)
-	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:50)
-	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
-	... 8 more
-
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:57.907
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.997
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10115,7 +10029,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:57.909
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.998
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10163,7 +10077,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:57.910
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:41.999
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10211,8 +10125,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:05:59.378
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:42.013
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10249,7 +10163,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:59.380
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:42.016
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10297,7 +10211,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:59.381
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:42.017
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10345,7 +10259,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:05:59.382
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:42.019
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10393,8 +10307,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:06:02.066
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:42.509
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10431,7 +10345,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:02.068
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:42.510
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10479,7 +10393,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:02.071
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:42.511
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10527,7 +10441,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:02.072
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:42.511
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10575,8 +10489,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:06:03.288
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:43.025
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10613,7 +10527,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:03.291
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:43.027
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10661,7 +10575,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:03.293
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:43.028
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10709,7 +10623,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:03.294
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:43.029
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10757,8 +10671,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:06:04.706
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:43.727
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10795,7 +10709,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:04.708
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:43.728
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10843,7 +10757,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:04.709
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:43.729
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10891,7 +10805,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:04.710
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:43.730
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10939,8 +10853,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:06:06.404
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:46.921
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10977,7 +10891,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:06.405
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:46.923
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -11025,7 +10939,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:06.406
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:46.925
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -11073,7 +10987,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:06.408
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:46.925
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -11121,8 +11035,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 37 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-06-25 15:06:07.660
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/controllers/AuthController.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-06-26 14:13:48.125
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/AdmiN/Desktop/food-hub/back-end/FoodHubBackend/src/main/java/com/foodhub/service/CartService.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -11159,7 +11073,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 8 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-06-25 15:06:07.662
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:48.126
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -11183,6 +11097,102 @@ java.util.concurrent.CompletionException: java.lang.IllegalStateException: serve
 	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
 	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:40)
 	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:66)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:193)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:199)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:144)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:133)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:944)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	... 37 more
+
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:48.127
+!MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:62)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:89)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:193)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:199)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:144)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:133)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:944)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	... 37 more
+
+!ENTRY org.eclipse.jface.text 4 0 2025-06-26 14:13:48.131
+!MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:54)
+	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:89)
 	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:193)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)

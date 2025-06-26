@@ -1,0 +1,66 @@
+package com.foodhub.service;
+
+import java.util.ArrayList;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.foodhub.model.Cart;
+import com.foodhub.model.CartItem;
+import com.foodhub.model.Item;
+import com.foodhub.model.User;
+import com.foodhub.repository.CartItemRepository;
+import com.foodhub.repository.CartRepository;
+import com.foodhub.repository.ItemRepo;
+import com.foodhub.repository.UserRepo;
+
+
+@Service
+public class CartService {
+	
+	@Autowired
+	private UserRepo userRepo;
+	
+	@Autowired
+	private ItemRepo itemRepo;
+	
+	@Autowired
+	private CartRepository cartRepository;
+	
+	@Autowired
+	private CartItemRepository cartItemRepository;
+	
+	// Add to card
+	public void addToCart(Long userId, int itemId, int quantity) {
+		User user = userRepo.findById(userId).orElseThrow(()-> new RuntimeException("User Not Found"));
+		
+		Cart cart = cartRepository.findByUser(user).orElseGet(()->{
+			Cart newCart = new Cart();
+			newCart.setUser(user);
+			newCart.setItems(new ArrayList<>());
+			return cartRepository.save(newCart);
+		});
+		
+		Item item = itemRepo.findById(itemId).orElseThrow(()-> new RuntimeException("Item not found"));
+		
+		//Check if item already in cart
+		Optional<CartItem> existingItem = cart.getItems().stream()
+											.filter(ci -> ci.getItem().getId() == item.getId()).findAny();
+		
+		if(existingItem.isPresent()) {
+			CartItem cartItem = existingItem.get();
+			cartItem.setQuantity(cartItem.getQuantity() + quantity);
+			cartItemRepository.save(cartItem);
+		}else {
+			
+			CartItem cartItem = new CartItem();
+			cartItem.setCart(cart);
+			cartItem.setItem(item);
+			cartItem.setQuantity(quantity);
+			cart.getItems().add(cartItem);
+			cartItemRepository.save(cartItem);
+		}
+		
+	}
+}

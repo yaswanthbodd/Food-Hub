@@ -1,0 +1,5 @@
+package com.foodhub.repository;
+
+public interface CartItemRepository {
+
+}

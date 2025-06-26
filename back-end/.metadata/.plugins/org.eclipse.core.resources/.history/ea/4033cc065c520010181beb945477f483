@@ -1,0 +1,5 @@
+package com.foodhub.service;
+
+public class CartService {
+
+}

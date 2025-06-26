@@ -37,8 +37,7 @@ public class SecurityConfig {
 	        .cors().and() 
 	        .csrf().disable()
 	        .authorizeHttpRequests(auth -> auth
-	            .requestMatchers("/api/auth/**","/api/**").permitAll()
-	            .anyRequest().authenticated()
+	            .requestMatchers("/api/auth/**","/api/**","/api/cart/**").permitAll().anyRequest().authenticated()
 	        )
 	        .sessionManagement()
 	        .sessionCreationPolicy(SessionCreationPolicy.STATELESS);

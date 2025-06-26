@@ -1,0 +1,5 @@
+package com.foodhub.model;
+
+public class CartItem {
+
+}

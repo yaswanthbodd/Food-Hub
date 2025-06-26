@@ -1,0 +1,22 @@
+package com.foodhub.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.foodhub.repository.CartRepository;
+import com.foodhub.repository.ItemRepo;
+import com.foodhub.repository.UserRepo;
+
+
+@Service
+public class CartService {
+	
+	@Autowired
+	private UserRepo userRepo;
+	
+	@Autowired
+	private ItemRepo itemRepo;
+	
+	@Autowired
+	private CartRepository cartRepository;
+}
